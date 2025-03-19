@@ -72,19 +72,102 @@ import UIKit
 //print(people.sorted())
 
 
-var selected = "Monday"
-selected = "Tuesday"
-selected = "January"
-selected = "Friday "
-
-enum Weekday {
-    case monday, tuesday, wednesday, thursday, friday
-}
-
+//var selected = "Monday"
+//selected = "Tuesday"
+//selected = "January"
+//selected = "Friday "
+//
+//enum Weekday {
+//    case monday, tuesday, wednesday, thursday, friday
+//}
+//
+////var day = Weekday.monday
+////day = Weekday.tuesday
+////day = Weekday.friday
+//
 //var day = Weekday.monday
-//day = Weekday.tuesday
-//day = Weekday.friday
+//day = .tuesday
+//day = .friday
 
-var day = Weekday.monday
-day = .tuesday
-day = .friday
+
+//let ourName = "Dave Lister"
+//let friendName = "Arnold Rimmer"
+//
+//if ourName < friendName {
+//    print("It's \(ourName) vs \(friendName)")
+//}
+//
+//if ourName > friendName {
+//    print("It's \(friendName) vs \(ourName)")
+//}
+//
+//
+//// Make an array of 3 numbers
+//var numbers = [1, 2, 3]
+//
+//// Add a 4th
+//numbers.append(4)
+//
+//// If we have over 3 items
+//if numbers.count > 3 {
+//    // Remove the oldest number
+//    numbers.remove(at: 0)
+//}
+//
+//// Display the result
+//print(numbers)
+
+
+//let firstName = "Paul"
+//let secondName = "Sophie"
+//
+//let firstAge = 40
+//let secondAge = 10
+//
+//print(firstName == secondName)
+//print(firstName != secondName)
+//print(firstName < secondName)
+//print(firstName >= secondName)
+//
+//print(firstAge == secondAge)
+//print(firstAge != secondAge)
+//print(firstAge < secondAge)
+//print(firstAge >= secondAge)
+
+
+//enum Sizes: Comparable {
+//    case small
+//    case medium
+//    case large
+//}
+//
+//let first = Sizes.small
+//let second = Sizes.medium
+//print(first < second)
+
+
+//let day = 5
+//print("My true love gave to me…")
+//
+//switch day {
+//case 5:
+//    print("5 golden rings")
+//    fallthrough
+//case 4:
+//    print("4 calling birds")
+//    fallthrough
+//case 3:
+//    print("3 French hens")
+//    fallthrough
+//case 2:
+//    print("2 turtle doves")
+//    fallthrough
+//default:
+//    print("A partridge in a pear tree")
+//}
+
+
+let names = ["Piper", "Alex", "Suzanne", "Gloria"]
+print(names[0])
+print(names[1...3])
+print(names[2...])
